@@ -1,0 +1,8 @@
+img {
+  max-width : 300px;
+}
+.phone-list{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}

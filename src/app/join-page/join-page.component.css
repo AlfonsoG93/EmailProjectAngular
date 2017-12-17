@@ -1,0 +1,10 @@
+div{
+  display : flex;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 5px solid grey;
+  width: 50%;
+  text-align: center;
+}

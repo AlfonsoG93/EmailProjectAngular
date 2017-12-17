@@ -1,0 +1,23 @@
+<h2> Sign Up </h2>
+
+<form (ngSubmit)="startSignUpAjax()">
+
+  <label for="full-name-input"> Full Name </label>
+  <input id="full-name-input" type="text" placeholder="e.g Bruce Wayne"
+  [(ngModel)]="theUser.fullname" name="fullNameInput">
+  <br/>
+
+  <label for="username-input"> Username </label>
+  <input id="username-input" type="text" placeholder="e.g batman"
+  [(ngModel)]="theUser.name" name="usernameInput" />
+  <br/>
+
+  <label for="password-input"> Password </label>
+  <input id="password-input" type="password" placeholder="e.g *******"
+  [(ngModel)]="theUser.password" name="passwordInput" />
+  <br/>
+
+  <button> Sign Up </button>
+
+
+</form>
